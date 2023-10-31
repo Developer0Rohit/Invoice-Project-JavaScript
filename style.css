@@ -1,0 +1,136 @@
+body{
+    background-color: rgb(218, 202, 202);
+}
+
+.main {
+    height: 688px;
+    width: 100%;
+    display: flex;
+    border-radius: 10px;
+}
+
+.main-col {
+    border-radius: 10px;
+    height: 400px;
+    width: 400px;
+    margin-left: 150px;
+}
+
+
+.a {
+    height: 100px;
+    width: 600px;
+    margin-top: 50px;
+    margin-left: -100px;
+    border: 1px solid black;
+    display: flex;
+    background-color: rgb(217, 255, 0);
+
+}
+
+.header {
+    height: 150px;
+    width: 400px;
+    text-align: center;
+}
+
+.header-col {
+    height: 150px;
+    width: 406px;
+    text-align: center;
+    border-radius: 10px;
+}
+
+.b {
+    height: 50vh;
+    width: 600px;
+    margin-left: -100px;
+    border: 1px solid black;
+    overflow: scroll;
+    background-color: white;
+}
+
+
+.mid-col {
+    border: 1px solid black;
+    border-collapse: collapse;
+    width: 585px;
+    text-align: center;
+    height: 30px;
+    background-color: rgb(54, 216, 216);
+    margin-bottom: 10px;
+}
+
+.c {
+    display: flex;
+    margin-left: -100px;
+    border: 1px solid black;
+    width: 600px;
+    background-color: rgb(246, 255, 0);
+}
+
+.footer {
+    width: 197.5px;
+    height: 105px;
+    margin-left: 60px;
+}
+
+.footer-col {
+    width: 297.5px;
+    height: 105px;
+    margin-left: 40px;
+}
+
+.main-coll {
+    width: 300px;
+    text-align: center;
+    margin-left: 350px;
+
+}
+
+.main-input {
+    margin-top: 70px;
+    background-color: #c9b2b2;
+    height: 270px;
+    border-radius: 20px;
+}
+
+button {
+    font-size: 15px;
+    background-color: rgb(17, 202, 230);
+    margin-top: 11px;
+    border-radius: 100px;
+    padding: 10px;
+    width: 100px;
+}
+
+button:hover {
+    background-color: yellow;
+
+}
+
+::placeholder {
+    font-size: 12px;
+    color: #fff9f9;
+    opacity: 0.5;
+    text-align: center;
+
+}
+
+input {
+    margin-top: 30px;
+    height: 25px;
+    color: #fff9f9;
+    background-color: rgb(184, 37, 37);
+    border-radius: 10px;
+}
+
+net {
+    height: 100px;
+    background: red;
+}
+
+#pb {
+    margin-top: -15px;
+
+}

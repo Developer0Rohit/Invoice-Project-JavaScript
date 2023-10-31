@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Invoice Making | Rohit Kumar</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <section class="main">
+        <section class="main-col">
+            <section class="a">
+                <div class="header">
+                    <h1>Pahariya Stones Company</h1>
+                    <P>Mansarovar (Jaipur)</P>
+                </div>
+                <hr>
+                <div class="header-col">
+                    <h1>INVOICE</h1>
+                    <p>CONTACT US: +91 65.35...41</p>
+                </div>
+            </section>
+            <section class="b">
+                <table class="mid-col">
+                    <tbody>
+                        <tr>
+                            <td>SR</td>
+                            <td>ITEM NAME</td>
+                            <td>QUANTITY</td>
+                            <td>RATE</td>
+                            <td>DISCOUNT</td>
+                            <td>NET</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </section>
+
+            <section class="c">
+                <div class="footer">
+                    <h4>BANKING DETAILS</h4>
+                    <p id="pb">Panjab National Bank</p>
+                    <p>Ac No. Acc9XXX819</p>
+                </div>
+                <hr>
+                <div class="footer-col">
+                    <div class="totalAmt">
+                        <table class="totalAmtTbl">
+                        <tbody>
+                            <tr>
+                            <td>Amount :</td>
+                            <td id="amount">0.00</td>
+                            </tr>
+                            <tr>
+                                <td>Dis :</td>
+                                <td id="discount1">0.00</td>
+                        </tr>
+                            <tr>
+                            <td>Net Amount :</td>
+                            <td id="netamount1">0.00</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+            </section>
+        </section>
+
+        <section class="main-coll">
+            <div class="main-input">
+                <form>
+                    <input type="text" id="item" placeholder="ITEM NAME" onkeyup="btn()"><br>
+                    <input type="text" id="qty" placeholder="QUANTITY" onkeyup="btn()"><br>
+                    <input type="number" id="rate" placeholder="RATE" onkeyup="btn()"><br>
+                    <input type="number" id="dis" placeholder="DISCOUNT" onkeyup="btn()"><br>
+                </form>
+            </div>
+            <div class="net">
+                <p id="netAmt">Your Total Amount is Here</p>
+                <button onclick="btn()">OK</button><br>
+                <button onclick="btn1()" id="bttn">Add</button><br>
+            </div>
+        </section>
+
+    </section>
+    <script src="script.js"></script>
+</body>
+
+</html>
